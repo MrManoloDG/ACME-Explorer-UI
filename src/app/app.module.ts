@@ -17,13 +17,14 @@ import { ActorService } from './services/actor.service';
 
 
 export const firebaseConfig = {
-  apiKey: 'AIzaSyDq2JQ1sFsFNyfV9Lysu01JTs7jADPimsY',
-  authDomain: 'acmesupermarketauth.firebaseapp.com',
-  databaseURL: 'https://acmesupermarketauth.firebaseio.com',
-  projectId: 'acmesupermarketauth',
-  storageBucket: 'acmesupermarketauth.appspot.com',
-  messagingSenderId: '471879775257',
-  appId: "1:471879775257:web:0241d1e26e5b84ccf86688"
+  apiKey: "AIzaSyBLQG_gHOvvts7C3g_bpuV91TU-GYZHKLA",
+  authDomain: "acme-viaje-el-corte-andaluh.firebaseapp.com",
+  databaseURL: "https://acme-viaje-el-corte-andaluh.firebaseio.com",
+  projectId: "acme-viaje-el-corte-andaluh",
+  storageBucket: "acme-viaje-el-corte-andaluh.appspot.com",
+  messagingSenderId: "785752393006",
+  appId: "1:785752393006:web:b3ba408388312107d6e6bf",
+  measurementId: "G-ZKX46KJLB8"
 };
 
 @NgModule({
