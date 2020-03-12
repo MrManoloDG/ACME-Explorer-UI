@@ -41,6 +41,12 @@ export class EditProfileComponent implements OnInit {
           this.profileForm.controls['id'].setValue(this.actor._id);
           this.profileForm.controls['name'].setValue(this.actor.name);
           this.profileForm.controls['surname'].setValue(this.actor.surname);
+          this.profileForm.controls['email'].setValue(this.actor.email);
+          this.profileForm.controls['password'].setValue(this.actor.password);
+          this.profileForm.controls['address'].setValue(this.actor.address);
+          this.profileForm.controls['language'].setValue(this.actor.preferredLanguage);
+          this.profileForm.controls['phone'].setValue(this.actor.phone);
+
         } else {
           console.log('error getting current actor: ' + JSON.stringify(actorData));
         }
