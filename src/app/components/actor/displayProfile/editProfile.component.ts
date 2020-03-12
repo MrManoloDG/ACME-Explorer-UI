@@ -29,7 +29,12 @@ export class EditProfileComponent implements OnInit {
       id: [''],
       name: [''],
       surname: [''],
-      email: ['']
+      email: [''],
+      password:[''],
+      address:[''],
+      language:[''],
+      phone:['']
+
     });
 
     this.actor = new Actor();
